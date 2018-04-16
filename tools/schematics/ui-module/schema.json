@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "ui-module",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Module name"
+    },
+    "app": {
+      "type": "string"
+    },
+    "modulePath": {
+      "type": "string",
+      "description": "Path for the new module"
+    }
+  },
+  "required": ["name"]
+}
